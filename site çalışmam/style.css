@@ -1,0 +1,47 @@
+header,
+footer{display: flex;
+    background-color: rgb(178, 168, 34);
+    padding: 35;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+header{
+    
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.anasayfa{
+    background-color: rgb(255, 230, 0);
+}
+.hakkimizda{
+    background-color: blueviolet;
+    
+}
+.ürünler{
+    background-color: chocolate;
+}
+.öneriler{
+    background-color: rgb(185, 132, 88);
+}
+.anasayfa img,.öneriler img{
+    width: 50%;
+    height: 50%;
+}
+.resimler img{
+    width: 20%;
+    height: 20%;
+}
+.resimler{
+    display: flex;
+    flex-direction: column;
+}
+.icerik{
+    display: flex;
+    justify-content: space-between;
+}
